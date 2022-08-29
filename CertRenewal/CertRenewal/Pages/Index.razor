@@ -1,0 +1,64 @@
+﻿@page "/"
+
+@inject HttpClient Http
+
+<PageTitle>Home</PageTitle>
+
+<h1>Certificate Renewal</h1>
+
+@if (certs == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Description</th>
+                <th>Type</th>
+                <th>Expires</th>
+                <th>Days Left</th>
+                <th>Start Renewal From</th>
+                <th>Starting In</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in certs.OrderBy(o=>o.StartRenewalIn))
+            {
+                <tr>
+                    <td>@forecast.Code</td>
+                    <td>@forecast.Description</td>
+                    <td>@forecast.Type</td>
+                    <td>@forecast.Expires.ToShortDateString()</td>
+                    <td>@forecast.DaysLeft</td>
+                    <td>@forecast.StartRenewalFrom.ToShortDateString()</td>
+                    <td>@forecast.StartRenewalIn</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Cert[]? certs;
+
+    protected override async Task OnInitializedAsync()
+    {
+        certs = await Http.GetFromJsonAsync<Cert[]>("cert-data/certs.json");
+    }
+
+    public class Cert
+    {
+        public string? Code { get; set; }
+        public string? Description { get; set; }
+        public string? Type { get; set; }
+        public DateTime Expires { get; set; }
+        public int DaysLeft => (int)(Expires - DateTime.UtcNow).TotalDays;
+        public DateTime StartRenewalFrom => Expires.AddDays(-180);
+        public int StartRenewalIn => DaysLeft - 180;
+
+
+    }
+}
