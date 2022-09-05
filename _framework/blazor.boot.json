@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "CertRenewal.dll": "sha256-AdythD8L\/2jmgQWnM0LmW7m9iLrU1X7IYsPSnRWXPjE=",
+      "CertRenewal.dll": "sha256-\/vxFoa5\/SL8adg3YgFcRd1Gj+c268IBlOSSaRqL83sA=",
       "Microsoft.AspNetCore.Components.dll": "sha256-jrIYq2zZsYjBUjgdBtXTtywDL35d4lmMwmvXH1Bb\/AA=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-0aR4Y1cN4iPqfEadyUaDtu2btR5SjzMAE0C7cPfuo1w=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-hItIMIcIumfGi1q3IylwSEfpyLuK1QShnYCDeXYXF+M=",
