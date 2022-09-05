@@ -16,6 +16,7 @@ else
         <thead>
             <tr>
                 <th>Code</th>
+                <th></th>
                 <th>Description</th>
                 <th>Type</th>
                 <th>Expires</th>
@@ -29,6 +30,7 @@ else
             {
                 <tr>
                     <td>@forecast.Code</td>
+                    <td><img src="@forecast.CodeSrc" height="20"/></td>
                     <td>@forecast.Description</td>
                     <td>@forecast.Type</td>
                     <td>@forecast.Expires.ToShortDateString()</td>
@@ -52,6 +54,7 @@ else
     public class Cert
     {
         public string? Code { get; set; }
+        public string? CodeSrc => $"img/{Code}.png";
         public string? Description { get; set; }
         public string? Type { get; set; }
         public DateTime Expires { get; set; }
