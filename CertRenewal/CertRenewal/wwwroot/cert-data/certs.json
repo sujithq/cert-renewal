@@ -1,62 +1,63 @@
 [
   {
-    "code": "dp-420",
-    "description": "Azure CosmosDB Developer",
-    "type": "Specialty",
-    "expires": "2024-03-11"
-  },
-  {
-    "code": "az-500",
-    "description": "Azure Security Engineer",
-    "type": "Associate",
-    "expires": "2024-04-23"
-  },
-  {
-    "code": "az-700",
-    "description": "Azure Network Engineer",
-    "type": "Associate",
-    "expires": "2024-06-24"
-  },
-  {
-    "code": "sc-300",
-    "description": "Identity and Access Administrator",
-    "type": "Associate",
-    "expires": "2023-07-07"
-  },
-  {
     "code": "sc-100",
     "description": "Cybersecurity Architect",
     "type": "Expert",
-    "expires": "2023-07-28"
+    "expires": "2023-07-29"
   },
   {
     "code": "az-104",
     "description": "Azure Administrator",
     "type": "Associate",
-    "expires": "2023-08-06"
+    "expires": "2023-08-07"
   },
   {
     "code": "az-305",
     "description": "Azure Solutions Architect",
     "type": "Expert",
-    "expires": "2023-08-08"
+    "expires": "2023-08-09"
   },
   {
     "code": "az-400",
     "description": "DevOps Engineer",
     "type": "Expert",
-    "expires": "2023-08-12"
+    "expires": "2023-08-13"
   },
   {
     "code": "az-204",
     "description": "Azure Developer",
     "type": "Associate",
-    "expires": "2023-08-26"
+    "expires": "2023-08-27"
   },
   {
     "code": "ai-102",
     "description": "Azure AI Engineer",
     "type": "Associate",
-    "expires": "2024-01-11"
+    "expires": "2024-01-12"
   }
+  {
+    "code": "dp-420",
+    "description": "Azure CosmosDB Developer",
+    "type": "Specialty",
+    "expires": "2024-03-11"
+  },
+  
+  {
+    "code": "az-500",
+    "description": "Azure Security Engineer",
+    "type": "Associate",
+    "expires": "2024-04-24"
+  },
+  {
+    "code": "az-700",
+    "description": "Azure Network Engineer",
+    "type": "Associate",
+    "expires": "2024-06-25"
+  },
+  {
+    "code": "sc-300",
+    "description": "Identity and Access Administrator",
+    "type": "Associate",
+    "expires": "2024-07-08"
+  },
 ]
