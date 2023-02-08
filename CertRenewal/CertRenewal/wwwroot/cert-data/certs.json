@@ -1,11 +1,4 @@
 [
-  
-  {
-    "code": "az-104",
-    "description": "Azure Administrator",
-    "type": "Associate",
-    "expires": "2023-08-07"
-  },
   {
     "code": "az-305",
     "description": "Azure Solutions Architect",
@@ -59,5 +52,11 @@
     "description": "Cybersecurity Architect",
     "type": "Expert",
     "expires": "2024-07-29"
+  },
+  {
+    "code": "az-104",
+    "description": "Azure Administrator",
+    "type": "Associate",
+    "expires": "2024-08-07"
   }
 ]
