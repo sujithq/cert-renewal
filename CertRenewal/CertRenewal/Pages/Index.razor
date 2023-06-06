@@ -18,7 +18,7 @@ else
                 <th>Code</th>
                 <th></th>
                 <th>Description</th>
-                <th>Type</th>
+                <th class="d-none d-sm-table-cell">Type</th>
                 <th>Expires</th>
                 <th>Days Left</th>
                 <th>Start Renewal From</th>
@@ -32,7 +32,7 @@ else
                     <td>@forecast.Code</td>
                     <td><img src="@forecast.CodeSrc" height="20"/></td>
                     <td>@forecast.Description</td>
-                    <td>@forecast.Type</td>
+                    <td class="d-none d-sm-table-cell">@forecast.Type</td>
                     <td>@forecast.Expires.ToShortDateString()</td>
                     <td>@forecast.DaysLeft</td>
                     <td>@forecast.StartRenewalFrom.ToShortDateString()</td>
