@@ -19,9 +19,9 @@ else
                 <th></th>
                 <th>Description</th>
                 <th class="d-none d-sm-table-cell">Type</th>
-                <th>Expires</th>
-                <th>Days Left</th>
-                <th>Start Renewal From</th>
+                <th class="d-none d-sm-table-cell">Expires</th>
+                <th class="d-none d-sm-table-cell">Days Left</th>
+                <th class="d-none d-sm-table-cell">Start Renewal From</th>
                 <th>Starting In</th>
             </tr>
         </thead>
@@ -34,8 +34,8 @@ else
                     <td>@forecast.Description</td>
                     <td class="d-none d-sm-table-cell">@forecast.Type</td>
                     <td>@forecast.Expires.ToShortDateString()</td>
-                    <td>@forecast.DaysLeft</td>
-                    <td>@forecast.StartRenewalFrom.ToShortDateString()</td>
+                    <td class="d-none d-sm-table-cell">@forecast.DaysLeft</td>
+                    <td class="d-none d-sm-table-cell">@forecast.StartRenewalFrom.ToShortDateString()</td>
                     <td>@forecast.StartRenewalIn</td>
                 </tr>
             }
