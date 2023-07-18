@@ -1,11 +1,5 @@
 [
   {
-    "code": "ai-102",
-    "description": "Azure AI Engineer",
-    "type": "Associate",
-    "expires": "2024-01-12"
-  },
-  {
     "code": "dp-420",
     "description": "Azure CosmosDB Developer",
     "type": "Specialty",
@@ -58,5 +52,11 @@
     "description": "Azure Developer",
     "type": "Associate",
     "expires": "2024-08-27"
+  },
+  {
+    "code": "ai-102",
+    "description": "Azure AI Engineer",
+    "type": "Associate",
+    "expires": "2025-01-12"
   }
 ]
