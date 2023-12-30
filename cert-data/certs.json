@@ -1,10 +1,5 @@
 [
-  {
-    "code": "az-700",
-    "description": "Azure Network Engineer",
-    "type": "Associate",
-    "expires": "2024-06-25"
-  },
+  
   {
     "code": "sc-300",
     "description": "Identity and Access Administrator",
@@ -58,5 +53,10 @@
     "description": "Azure Security Engineer",
     "type": "Associate",
     "expires": "2025-04-24"
+  {
+    "code": "az-700",
+    "description": "Azure Network Engineer",
+    "type": "Associate",
+    "expires": "2025-06-25"
   }
 ]
