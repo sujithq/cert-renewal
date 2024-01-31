@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CertRenewal",
   "resources": {
-    "hash": "sha256-b/lA3okCZRl0rBEbS1819nHULJpDR2XGmpnfL7bqIB0=",
+    "hash": "sha256-Tlq25hp+4Q98quI/kn+i2FJiSXc8bp7FMv46kqq0PCA=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.ahpp78valh.js": "sha256-SGOlISx+3G4kkvpC9Uq3qoPGsnjxGmW61QBev0lyI5U="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "CertRenewal.wasm": "sha256-WV8JzyjvcqvvI7d9TZ3gtTWa6VHWjfhT8IQjnALRgto=",
+      "CertRenewal.wasm": "sha256-M/19XDxA22DzehSV5fhoaM9kzkGpVJvw7+wd1/+E18g=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-FH2Qq1tZ5w5cA8ZReH0/rL2GxaIjA5uDOA6g4+RcHmY=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-mmo6S4AxiBcnKbs4b+7ObftqPCkIcLGiAv9gICT/5NY=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-d6tN87QrJstiTMcLaUtZ6TWiNHa8A74Suuzx95thRrE=",
