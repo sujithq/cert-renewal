@@ -1,10 +1,5 @@
 [  
-  {
-    "code": "dp-420",
-    "description": "Azure CosmosDB Developer",
-    "type": "Specialty",
-    "expires": "2025-03-11"
-  },
+  
   {
     "code": "az-500",
     "description": "Azure Security Engineer",
@@ -57,5 +52,10 @@
     "description": "Azure AI Engineer",
     "type": "Associate",
     "expires": "2026-01-12"
+  },{
+    "code": "dp-420",
+    "description": "Azure CosmosDB Developer",
+    "type": "Specialty",
+    "expires": "2026-03-11"
   }
 ]
