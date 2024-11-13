@@ -1,11 +1,4 @@
 [  
-  
-  {
-    "code": "az-500",
-    "description": "Azure Security Engineer",
-    "type": "Associate",
-    "expires": "2025-04-24"
-  },
   {
     "code": "az-700",
     "description": "Azure Network Engineer",
@@ -47,15 +40,23 @@
     "description": "Azure Developer",
     "type": "Associate",
     "expires": "2025-08-27"
-  },{
+  },
+  {
     "code": "ai-102",
     "description": "Azure AI Engineer",
     "type": "Associate",
     "expires": "2026-01-12"
-  },{
+  },
+  {
     "code": "dp-420",
     "description": "Azure CosmosDB Developer",
     "type": "Specialty",
     "expires": "2026-03-11"
+  },
+  {
+    "code": "az-500",
+    "description": "Azure Security Engineer",
+    "type": "Associate",
+    "expires": "2026-04-24"
   }
 ]
