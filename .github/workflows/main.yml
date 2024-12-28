@@ -1,4 +1,4 @@
- name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages
 
 # Run workflow on every push to the master branch
 on:
@@ -28,7 +28,7 @@ jobs:
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: 9.0.x
 
     # publishes Blazor project to the release-folder
     - name: Publish .NET Core Project
