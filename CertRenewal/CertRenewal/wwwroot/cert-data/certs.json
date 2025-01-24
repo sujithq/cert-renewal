@@ -1,11 +1,4 @@
 [  
-  
-  {
-    "code": "sc-300",
-    "description": "Identity and Access Administrator",
-    "type": "Associate",
-    "expires": "2025-07-08"
-  },
     {
     "code": "sc-100",
     "description": "Cybersecurity Architect",
@@ -59,5 +52,10 @@
     "description": "Azure Network Engineer",
     "type": "Associate",
     "expires": "2026-06-25"
+  },{
+    "code": "sc-300",
+    "description": "Identity and Access Administrator",
+    "type": "Associate",
+    "expires": "2026-07-08"
   }
 ]
