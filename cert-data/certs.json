@@ -1,10 +1,5 @@
 [  
-    {
-    "code": "sc-100",
-    "description": "Cybersecurity Architect",
-    "type": "Expert",
-    "expires": "2025-07-29"
-  },
+    
   {
     "code": "az-104",
     "description": "Azure Administrator",
@@ -57,5 +52,10 @@
     "description": "Identity and Access Administrator",
     "type": "Associate",
     "expires": "2026-07-08"
+  },{
+    "code": "sc-100",
+    "description": "Cybersecurity Architect",
+    "type": "Expert",
+    "expires": "2026-07-29"
   }
 ]
