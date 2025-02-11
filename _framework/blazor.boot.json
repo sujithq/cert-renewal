@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "CertRenewal",
   "resources": {
-    "hash": "sha256-U1VUM7sjkxbTIFn1Awi2oNqwuOFeg9crP24at4g9udw=",
+    "hash": "sha256-uYtQf/vQ9zRdEJo9hP+bO18EZIOsvr9ozq+rpfuLnoY=",
     "fingerprinting": {
-      "CertRenewal.om6wu1ciox.wasm": "CertRenewal.wasm",
+      "CertRenewal.dap04kdyrr.wasm": "CertRenewal.wasm",
       "Microsoft.AspNetCore.Components.py7zoml2z4.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.pq1s9tpl5w.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.ojjbeuchn6.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -64,7 +64,7 @@
       "System.Runtime.InteropServices.JavaScript.mwa725m7o8.wasm": "sha256-Cjdb0G7x7YHp1aN8K34JIjyB6iQIEsmMfoZJJ71ZuOw="
     },
     "assembly": {
-      "CertRenewal.om6wu1ciox.wasm": "sha256-kKuj4nHUwXYTnWmmuB5ONXYt6fmD72qTlWu1l++4WaQ=",
+      "CertRenewal.dap04kdyrr.wasm": "sha256-+9t09AKVkiSvnZwBVluHYDqCQqxUT08rUd6saoAsqeI=",
       "Microsoft.AspNetCore.Components.py7zoml2z4.wasm": "sha256-7+x5PTgKh+K55/ec3dctC+YfXUurYbxmUPLfnIQYHGU=",
       "Microsoft.AspNetCore.Components.Web.pq1s9tpl5w.wasm": "sha256-L/vXNWFdWzaeEfyWsCdr4529OiDf9c+AR/CT6Lw5ZCw=",
       "Microsoft.AspNetCore.Components.WebAssembly.ojjbeuchn6.wasm": "sha256-TMJrwxmh7raq50FXlf8OFb9/PXWC0dJ48IVhshQE3jE=",
