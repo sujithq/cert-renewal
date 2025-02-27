@@ -1,17 +1,4 @@
 [  
-    
-  {
-    "code": "az-104",
-    "description": "Azure Administrator",
-    "type": "Associate",
-    "expires": "2025-08-07"
-  },
-  {
-    "code": "az-305",
-    "description": "Azure Solutions Architect",
-    "type": "Expert",
-    "expires": "2025-08-09"
-  },
   {
     "code": "az-400",
     "description": "DevOps Engineer",
@@ -57,5 +44,15 @@
     "description": "Cybersecurity Architect",
     "type": "Expert",
     "expires": "2026-07-29"
+  },{
+    "code": "az-104",
+    "description": "Azure Administrator",
+    "type": "Associate",
+    "expires": "2026-08-07"
+  },{
+    "code": "az-305",
+    "description": "Azure Solutions Architect",
+    "type": "Expert",
+    "expires": "2026-08-09"
   }
 ]

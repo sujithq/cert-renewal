@@ -14,8 +14,12 @@ name: "CodeQL Advanced"
 on:
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - 'CertRenewal/CertRenewal/wwwroot/cert-data/**'
   pull_request:
     branches: [ "main" ]
+    paths-ignore:
+      - 'CertRenewal/CertRenewal/wwwroot/cert-data/**'
   schedule:
     - cron: '37 2 * * 3'
   workflow_dispatch:
